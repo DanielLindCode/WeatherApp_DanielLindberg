@@ -1,0 +1,94 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: #5f5f5f;
+}
+
+.container {
+	height: 100vh;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+p {
+	color: #b0b0b0;
+}
+
+h1 {
+	text-align: center;
+	color: #3b3b3b;
+	margin-bottom: 70px;
+	font-size: 45px;
+	letter-spacing: 2px;
+}
+
+h2 {
+	text-align: center;
+	color: #3b3b3b;
+}
+
+h3 {
+	text-align: center;
+	color: #3b3b3b;
+}
+
+.search-field {
+	height: 30px;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	outline: none;
+}
+
+.city {
+	width: 400px;
+}
+
+.country {
+	width: 200px;
+}
+
+.search-btn {
+	height: 50px;
+	width: 150px;
+	background: #777777;
+	border: none;
+	color: #000;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.search-btn:hover {
+	background: #3b3b3b;
+	cursor: pointer;
+}
+
+.form-box {
+	background: rgba(0, 0, 0, 0.5);
+	padding: 30px;
+}
+
+.history {
+	margin-bottom: 5rem;
+}
+
+.returnLink {
+	margin-bottom: 5rem;
+	align-self: center;
+	text-align: center;
+}
+
+a {
+	background: #3b3b3b;
+	color: #b0b0b0;
+	text-decoration: none;
+	padding: 0.5rem;
+}
